@@ -1,4 +1,4 @@
-package com.workshop.platform.config;
+﻿package com.workshop.platform.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,7 +20,8 @@ public class CorsConfig {
                         "http://localhost:5174",
                         "http://localhost:3000",
                         "http://127.0.0.1:5173",
-                        "http://127.0.0.1:5174"
+                        "http://127.0.0.1:5174",
+                        "https://fullstack-project-frontend-ps-41.vercel.app"
                     )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
                         .allowedHeaders("*");
@@ -28,3 +29,6 @@ public class CorsConfig {
         };
     }
 }
+
+
+
