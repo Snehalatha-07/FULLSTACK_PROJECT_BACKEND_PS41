@@ -23,12 +23,9 @@ public class CorsConfig {
                         "http://127.0.0.1:5174",
                         "https://fullstack-project-frontend-ps-41.vercel.app"
                     )
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
-                        .allowedHeaders("*");
+                    .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
+                    .allowedHeaders("*");
             }
         };
     }
 }
-
-
-
